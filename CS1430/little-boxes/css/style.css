@@ -1,0 +1,288 @@
+/* CSS */
+
+* {padding: 0; margin: 0;}
+
+html {
+  background-color: #2e7122;
+  height: 100%;
+  width: 100%;
+} 
+
+body {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+div {
+	position: absolute;
+}
+
+div.container {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: -340px;
+	margin-left: -309px;
+}
+
+div.triangle-T1{
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 60px solid #fae906/*#fae906*/;
+	top: 180px;
+	left: 309px;
+}
+
+div.triangle-T2{
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 60px solid #fae906;
+	top: 240px;
+	left: 279px;
+}
+
+div.triangle-T3{
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 60px solid #fae906;
+	top: 240px;
+	left: 339px;
+}
+
+div.R1 {
+	top: 174px;
+	left: 423px;
+	transform: rotate(-3deg);
+}
+
+div.rectangle-R1 {
+	position: relative;
+	height: 24px;
+	width: 186px;
+	background-color: #fae906;
+	margin: -1px;
+}
+
+div.triangle-R1 {
+	position: relative;
+	border-left: 186px solid transparent;
+	border-bottom: 39px solid #fae906;
+	margin: -1px;
+}
+
+div.L1 {
+	top: 174px;
+	left: 72px;
+	transform: rotate(3deg);
+}
+
+div.rectangle-L1 {
+	position: relative;
+	height: 24px;
+	width: 186px;
+	background-color: #fae906;
+	margin: -1px;
+}
+
+div.triangle-L1 {
+	position: relative;
+	border-right: 186px solid transparent;
+	border-bottom: 39px solid #fae906;
+	margin: -1px;
+}
+
+div.R2 {
+	top: 228px;
+	left: 441px;
+	transform: rotate(24deg);
+}
+
+div.rectangle-R2 {
+	position: relative;
+	height: 18px;
+	width: 150px;
+	background-color: #fae906;
+	margin: -1px;
+}
+
+div.triangle-R2 {
+	position: relative;
+	border-left: 150px solid transparent;
+	border-bottom: 54px solid #fae906;
+	margin: -1px;
+}
+
+div.L2 {
+	top: 228px;
+	left: 90px;
+	transform: rotate(-24deg);
+}
+
+div.rectangle-L2 {
+	position: relative;
+	height: 18px;
+	width: 150px;
+	background-color: #fae906;
+	margin: -1px;
+}
+
+div.triangle-L2 {
+	position: relative;
+	border-right: 150px solid transparent;
+	border-bottom: 54px solid #fae906;
+	margin: -1px;
+}
+
+div.R3 {
+	top: 296px;
+	left: 423px;
+	transform: rotate(45deg);
+}
+
+div.rectangle-R3 {
+	position: relative;
+	height: 24px;
+	width: 99px;
+	background-color: #fae906;
+	margin: -1px;
+}
+
+div.triangle-R3 {
+	position: relative;
+	border-left: 99px solid transparent;
+	border-bottom: 39px solid #fae906;
+	margin: -1px;
+}
+
+div.L3 {
+	top: 296px;
+	left: 159px;
+	transform: rotate(-45deg);
+}
+
+div.rectangle-L3 {
+	position: relative;
+	height: 24px;
+	width: 99px;
+	background-color: #fae906;
+	margin: -1px;
+}
+
+div.triangle-L3 {
+	position: relative;
+	border-right: 99px solid transparent;
+	border-bottom: 39px solid #fae906;
+	margin: -1px;
+}
+
+div.R4 {
+	top: 345px;
+	left: 381px;
+	transform: rotate(60deg);
+}
+
+div.rectangle-R4 {
+	position: relative;
+	height: 15px;
+	width: 66px;
+	background-color: #fae906;
+	margin: -1px;
+}
+
+div.triangle-R4 {
+	position: relative;
+	border-left: 66px solid transparent;
+	border-bottom: 21px solid #fae906;
+	margin: -1px;
+}
+
+div.L4 {
+	top: 345px;
+	left: 236px;
+	transform: rotate(-60deg);
+}
+
+div.rectangle-L4 {
+	position: relative;
+	height: 15px;
+	width: 66px;
+	background-color: #fae906;
+	margin: -1px;
+}
+
+div.triangle-L4 {
+	position: relative;
+	border-right: 66px solid transparent;
+	border-bottom: 21px solid #fae906;
+	margin: -1px;
+}
+
+div.crescent-R {
+	height: 171px;
+	width: 171px;
+	border-radius: 50%;
+	background-color: transparent;
+	box-shadow:21px 9px 0px 0px #fae906;
+	top: 176px;
+	left: 252px;
+}
+
+div.crescent-L {
+	height: 171px;
+	width: 171px;
+	transform: scaleX(-1);
+	border-radius: 50%;
+	background-color: transparent;
+	box-shadow:21px 9px 0px 0px #fae906;
+	top: 176px;
+	left: 252px;
+}
+
+div.triangle-C {
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 72px solid #2e7122;
+	top: 309px;
+	left: 279px;
+}
+
+div.triangle-B1 {
+	border-left: 36px solid transparent;
+	border-right: 36px solid transparent;
+	border-bottom: 54px solid #fae906;
+	top: 315px;
+	left: 303px;
+}
+
+div.triangle-B2 {
+	border-left: 36px solid transparent;
+	border-right: 36px solid transparent;
+	border-top: 33px solid #fae906;
+	top: 369px;
+	left: 303px;
+}
+
+div.triangle-B3 {
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-bottom: 18px solid #fae906;
+	top: 405px;
+	left: 321px;
+}
+
+div.triangle-B4 {
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-top: 72px solid #fae906;
+	top: 423px;
+	left: 321px;
+}
+
+div.rectangle-B1 {
+	height: 24px;
+	width: 12px;
+	background-color: #fae906;
+	top: 396px;
+	left: 333px;
+}

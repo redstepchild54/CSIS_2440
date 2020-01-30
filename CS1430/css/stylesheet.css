@@ -1,0 +1,34 @@
+/* CSS */
+
+/* add padding to all of the background sections.*/
+*[class*="bg-"] {padding-top:55px; padding-bottom:55px;}
+
+
+.bg-1 {background-color: #88b14b; color: #101010;}
+.page-header {border-bottom: 2px solid #151515;}
+.bg-2, .bg-4, .bg-6 {background-color: #434343; color: white;}
+.bg-3, .bg-5 {background-color: #151515; color: white;}
+
+/* lign up h2 text with image in larger screen
+   prevent image and text from being next to one another in smaller scrrens */
+@media screen and (min-width: 768px) {
+    h2 {margin-top: 0px;}
+}
+
+/* center images and give them texture */
+div[class*="col"] > img{width:100%;}
+.bg-2 img, .bg-4 img {box-shadow: 5px 10px 8px #151515;}
+.bg-3 img, .bg-5 img {box-shadow: 5px 10px 8px #434343;}
+
+/* set font size and family */
+body {font-family: 'Share Tech', sans-serif;}
+nav {font-size: 18px;}
+h1, h2 {font-family: 'Share Tech Mono', monospace;}
+h1 {font-size: 60px;}
+h2 {font-size: 40px;}
+p, div#hobbies li {font-size: 20px;}
+table {font-size: 18px;}
+th {font-style: italic; font-size: 22px;}
+
+/* give weight to audio based easter eggs */
+*[onclick^=playAudio]:hover{background-color: #151515; font-weight: bold; border: 2px solid #151515; border-radius: 10px; cursor: pointer;}

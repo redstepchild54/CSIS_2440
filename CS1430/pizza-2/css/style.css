@@ -1,0 +1,311 @@
+/*CSS*/
+
+* { margin: 0px; padding: 0px;}
+
+html
+{
+	background-color: #730202;
+}
+
+/*
+Navigation
+*/
+
+nav 
+{
+	overflow: hidden;
+	background-color: #730202;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+}
+
+nav ul
+{
+	display: flex;
+	width: 60%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li
+{
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	background-color: #730202;	
+	height: 100%;
+}
+
+nav ul li:hover
+{
+	background-color: #323E40;
+	border-radius: 40%;
+	transition: 0.5s;
+}
+
+nav ul li.active
+{
+	background-color: #323E40;
+}
+
+nav ul li a
+{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 26px;
+	color: #F2AE2E;
+	height: 100%;
+}
+
+/*
+Main Content
+*/
+
+main 
+{
+	overflow: hidden;
+	padding: 20px 15%;
+	text-align: center;
+	background: #323E40;
+	color: #F2AE2E;
+	font-family: Calibri;
+}
+
+main > p
+{
+	padding: 20px;
+	text-align: left;
+	color: #F2AE2E;
+	font-size: 20px;
+}
+
+img.whitehouse, img.nobody, img.toppings
+{
+	padding-right: 20px;
+	float: left;
+}
+
+img.whitehouse
+{
+
+	height: 300px;
+	width: 450px;
+}
+
+img.pizza
+{
+	padding-left: 20px;
+	float: right;
+	height: 300px;
+	width: 450px;
+}
+
+img.nobody
+{
+	height: 200px;
+	width: 200px;
+}
+
+img.toppings
+{
+	height: 170px;
+	width: 300px;
+}
+
+/* Forms */
+
+main > div
+{
+	display: flex;
+	justify-content: left;
+}
+
+div.left-div
+{
+	padding: 10px;
+	width: 20%;
+}
+
+div.right-div
+{
+	padding: 10px;
+	width: 80%;
+}
+
+fieldset
+{
+	font-size: 20px;
+	border: 3px dashed #730202; 
+	padding: 10px;
+	display: flex;
+}
+
+div.form-container
+{
+	display: flex;
+	justify-content: left;
+}
+
+div.div-50-L, div.div-50-R
+{
+	width: 50%;
+	float: left;
+	flex: 1;
+}
+
+div.div-50-R
+{
+	display: flex;
+}
+
+div.div-50-R p
+{
+	width: 100%;
+}
+
+legend
+{
+	padding: 5px;
+}
+
+form label
+{
+	display: block;
+	padding: 5px;
+}
+
+form div.div-50-L p
+{
+	text-align: right;
+	padding-right: 10px;
+}
+
+form div.div-50-R p
+{
+	text-align: left;
+	padding-left: 10px;
+}
+
+textarea
+{
+	resize: none;
+	width: 70%;
+	height: 60%;
+}
+
+textarea, input[type=text], select
+{
+	background-color: #730202;
+	border: none;
+	padding-left: 5px;
+	color: #F2AE2E;
+}
+
+input[type=reset], input[type=submit]
+{
+	background-color: #730202;
+	border: none;
+	border-radius: 10px;
+	font-size: 24px;
+	color: #F2AE2E;
+}
+
+div.buttons
+{
+	display: grid;
+	grid-template-columns: 30% 30%;
+	justify-content: center;
+	grid-gap: 20px;
+}
+
+/* Order Forms */
+
+div.customer-details
+{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+}
+
+div.customer-details > *:nth-child(odd)
+{
+	text-align: right;
+}
+
+div.customer-details > *:nth-child(even)
+{
+	text-align: left;
+}	
+
+div.customer-details > *:last-child
+{
+	grid-column: span 2;
+	text-align: center;
+}
+
+div.order
+{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 30% 30% 30%;
+}
+
+div.order div.toppings
+{
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-gap: 10px;
+	grid-column: 1/3;
+	grid-row: 1/14;
+}
+
+div.toppings *, div.sizes
+{
+	text-align: right;
+}
+
+div.toppings *:first-child
+{
+	grid-column: span 2;
+	text-align: center;
+}
+
+div.order div.sizes
+{
+	display: grid;
+	grid-template-columns: 40%;
+	grid-gap: 10px;
+	grid-column: 3/4;
+	grid-row: 5/12;
+}
+
+div.sizes *:first-child
+{
+	text-align: center;
+}
+
+div.order div.buttons
+{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 30% 30%;
+	grid-gap: 20px;
+	grid-column: 1/4;
+	grid-row: 14/15;
+}
+	
+/* Footer */
+
+footer
+{
+	height: 60px;
+	background-color: #730202;
+}

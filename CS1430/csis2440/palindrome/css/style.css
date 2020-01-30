@@ -1,0 +1,9 @@
+.good, .bad {padding: 2px 4px; display: inline-block; border-radius: 5px;}
+.good {background-color: greenyellow;}
+.bad {background-color: red;}
+
+div.facts-wrapper {display: flex; flex-wrap: wrap; justify-content: space-around;}
+
+div.facts {flex-basis: 31%; border: 2px solid black; margin: 5px; padding: 5px;}
+div.facts > h1 {margin: 0; text-align: center;}
+div.facs > ul {margin-top: 2px;}

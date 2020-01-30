@@ -1,0 +1,109 @@
+/* CSS */
+
+* {margin: 0px; padding: 0px; font-family: cursive;}
+
+html
+{
+	background-color: #025373;
+}
+
+/* Logo */
+
+/* Navigation */
+
+nav
+{
+	position: fixed;
+}
+
+nav li
+{
+	margin: 20px 20px 0px 20px;
+	list-style-type: none;
+	padding: 10px 0px;
+	
+}
+
+nav a
+{
+	padding: 10px;
+	color: #F2B8A2;
+	font-size: 26px;
+	text-decoration: none;
+	border: 2px solid #F2B8A2;
+	border-radius: 15px;
+}
+
+nav a:hover
+{
+	color: #025373;
+	background-color: #F2B8A2;
+	transition: 0.5s
+}
+
+/* Main */
+
+main
+{
+	margin-left: 140px;
+	display: grid;
+	padding: 20px;
+	grid-template-columns: 1fr;
+	grid-gap:20px;
+	background-color: #0396A6;
+}
+
+main header
+{
+	text-align: center;
+}
+
+section div
+{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-column-gap: 20px;
+}
+
+section img
+{
+	grid-column: 2 / 3;
+	grid-row: 1 / 3;
+	justify-self: center;
+	align-self: center;
+	border-radius: 40px;
+}
+
+h2, p
+{
+	grid-column: 1 / 2;
+	padding-bottom: 10px;
+}
+
+/* Images */
+
+div img
+{
+	display: none;
+}
+
+img.image-1[src*="2"], img.image-2[src*="5"], img.image-3[src*="8"]
+{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+img.image-1[src*="2"], img.image-3[src*="8"]
+{
+	max-height: 200px;
+	max-width: 300px;
+}
+
+img.image-2[src*="5"]
+{
+	max-height: 200px;
+	max-width: 200px;
+}
+
+/* Footer */

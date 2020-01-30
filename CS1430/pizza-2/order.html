@@ -1,0 +1,152 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<title>Order</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="active"><a href="order.html">Order</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h1>Order from Bill's Best Pizza</h1>
+			<p><img class="toppings" src="img/pizza-toppings.jpg" alt="Pizza Toppings">Order a famous slice of Bill's Best Pizza. With so many options to choose from, the possibilities are endless. All of our homemade pizzas are made fresh, so you know you are getting the highest quality when you order from us. Fill out the order form and your pizza will be ready in no time at all. Thank you for choosing Bill's Best Pizza.<p>
+			<form action="http://www.stonecoldprofessor.com/1430/pizza-form/order-process.php" method="post" autocomplete="off">
+				<fieldset>
+					<legend>Customer Details</legend>
+					<div class="customer-details">
+						<label>First Name: <input name="first" placeholder="First Name" type="text"></label>
+						<label>Last Name: <input name="last" placeholder="Last Name" type="text"></label>
+						<label>Street Address: <input name="add1" placeholder="123 Pizza Street" type="text" required></label>
+						<label>Suite/Apt #: <input name="add2" placeholder="42" type="text"></label>
+						<label>City: <input name="city" placeholder="Pizza City" type="text" required></label>
+						<label>State: <select name="state" required>
+							<option value="">Select a State</option>
+							<option value="AL">Alabama</option>
+							<option value="AK">Alaska</option>
+							<option value="AZ">Arizona</option>
+							<option value="AR">Arkansas</option>
+							<option value="CA">California</option>
+							<option value="CO">Colorado</option>
+							<option value="CT">Connecticut</option>
+							<option value="DE">Delaware</option>
+							<option value="FL">Florida</option>
+							<option value="GA">Georgia</option>
+							<option value="HI">Hawaii</option>
+							<option value="ID">Idaho</option>
+							<option value="IL">Illinois</option>
+							<option value="IN">Indiana</option>
+							<option value="IA">Iowa</option>
+							<option value="KS">Kansas</option>
+							<option value="KY">Kentucky</option>
+							<option value="LA">Louisiana</option>
+							<option value="ME">Maine</option>
+							<option value="MD">Maryland</option>
+							<option value="MA">Massachusetts</option>
+							<option value="MI">Michigan</option>
+							<option value="MN">Minnesota</option>
+							<option value="MS">Mississippi</option>
+							<option value="MO">Missouri</option>
+							<option value="MT">Montana</option>
+							<option value="NE">Nebraska</option>
+							<option value="NV">Nevada</option>
+							<option value="NH">New Hampshire</option>
+							<option value="NJ">New Jersey</option>
+							<option value="NM">New Mexico</option>
+							<option value="NY">New York</option>
+							<option value="NC">North Carolina</option>
+							<option value="ND">North Dakota</option>
+							<option value="OH">Ohio</option>
+							<option value="OK">Oklahoma</option>
+							<option value="OR">Oregon</option>
+							<option value="PA">Pennsylvania</option>
+							<option value="RI">Rhode Island</option>
+							<option value="SC">South Carolina</option>
+							<option value="SD">South Dakota</option>
+							<option value="TN">Tennessee</option>
+							<option value="TX">Texas</option>
+							<option value="UT">Utah</option>
+							<option value="VT">Vermont</option>
+							<option value="VA">Virginia</option>
+							<option value="WA">Washington</option>
+							<option value="WV">West Virginia</option>
+							<option value="WI">Wisconsin</option>
+							<option value="WY">Wyoming</option>
+						</select></label>
+						<label>Zip Code: <input name="zip" placeholder="12345" type="text" required></label>
+						<label>Phone Number: <input name="phone" placeholder="605-475-6962" type="text" required></label>
+						<label>Email: <input name="email" placeholder="pizzalover@cheezemail.net" type="text" required></label>
+						<label>Comments: <br><textarea name="comments" placeholder="You guys have the best pizza! Thank you for making this world a better place!"></textarea></label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Order</legend>
+					<div class="order">
+						<div class="toppings">
+							<p>Toppings: </p>
+							<label>Marinara Sauce <input type="checkbox" name="toppings[]" value="Marinara Sauce"></label>
+							<label>BBQ Sauce <input type="checkbox" name="toppings[]" value="BBQ Sauce"></label>
+							<label>Garlic Parmesan Sauce <input type="checkbox" name="toppings[]" value="Garlic Parmesan Sauce"></label>
+							<label>Alfredo Sauce <input type="checkbox" name="toppings[]" value="Alfredo Sauce"></label>
+							<label>Ham <input type="checkbox" name="toppings[]" value="Ham"></label>
+							<label>Sausage <input type="checkbox" name="toppings[]" value="Sausage"></label>
+							<label>Chicken <input type="checkbox" name="toppings[]" value="Chicken"></label>
+							<label>Salami <input type="checkbox" name="toppings[]" value="Salami"></label>
+							<label>Pepperoni <input type="checkbox" name="toppings[]" value="Pepperoni"></label>
+							<label>Bacon <input type="checkbox" name="toppings[]" value="Bacon"></label>
+							<label>Jalapeño Peppers <input type="checkbox" name="toppings[]" value="Jalapeño"></label>
+							<label>Onions <input type="checkbox" name="toppings[]" value="Onions"></label>
+							<label>Banana Peppers <input type="checkbox" name="toppings[]" value="Banana Peppers"></label>
+							<label>Black Olives <input type="checkbox" name="toppings[]" value="Black Olives"></label>
+							<label>Mushrooms <input type="checkbox" name="toppings[]" value="Mushrooms"></label>
+							<label>Pineapple <input type="checkbox" name="toppings[]" value="Pineapple"></label>
+							<label>Spinach <input type="checkbox" name="toppings[]" value="Spinach"></label>
+							<label>Red Peppers <input type="checkbox" name="toppings[]" value="Red Peppers"></label>
+							<label>Green Peppers <input type="checkbox" name="toppings[]" value="Green Peppers"></label>
+							<label>Feta Cheese <input type="checkbox" name="toppings[]" value="Feta Cheese"></label>
+							<label>Shredded Parmesan <input type="checkbox" name="toppings[]" value="Shredded Cheese"></label>
+							<label>Cheddar Cheese <input type="checkbox" name="toppings[]" value="Cheddar Cheese"></label>
+							<label>Shredded Provolone <input type="checkbox" name="toppings[]" value="Shredded Provolone"></label>
+						</div>
+						<label>Crust: <select name="crust" required size="1">
+							<option value="">Select a Crust</option>
+							<option value="Neapolitan">Neapolitan</option>
+							<option value="New York">New York</option>
+							<option value="St. Louis">St. Louis</option>
+							<option value="Flatbread">Flatbread</option>
+							<option value="Traditional Pan">Traditional Pan</option>
+							<option value="Deep Dish">Deep Dish</option>
+							<option value="Authentic Wood Fired">Authentic Wood Fired</option>
+							<option value="Focaccia">Focaccia</option>
+							<option value="Sicilian">Sicilian</option>
+						</select></label>
+						<div class="sizes">
+							<p>Sizes: </p>
+							<label>Child <input type="radio" name="size" value="Child"></label>
+							<label>Personal <input type="radio" name="size" value="Personal"></label>
+							<label>X-Small <input type="radio" name="size" value="X-Small"></label>
+							<label>Small <input type="radio" name="size" value="Small"></label>
+							<label>Medium <input type="radio" name="size" value="Medium"></label>
+							<label>Large <input type="radio" name="size" value="Large"></label>
+							<label>X-Large <input type="radio" name="size" value="X-Large"></label>
+							<label>Family <input type="radio" name="size" value="Family"></label>
+							<label>Super <input type="radio" name="size" value="Super" checked></label>
+						</div>
+						<div class="buttons">
+							<input type="reset" value="Clear">
+							<input type="submit" value="Send">
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+body
+{
+	background: black;
+	color: orange;
+	text-align: center;
+}
+
+img 
+{
+	display: block;
+	padding: 20px;
+	float: left;
+}
+
+h1 {text-align: center;}
+
+p {padding-right: 40px;}
+
+button {padding: 10px; margin: 7px;}
+
+.hide {display: none;}
+.show {display: block;}

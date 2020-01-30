@@ -1,0 +1,23 @@
+/* CSS */
+html
+{
+	background-color: black;
+	background: url("../img/background.jpg");
+}
+body 
+{
+	
+	text-align:center;
+	font-family: arial;
+	color: white;
+}
+
+p, input
+{
+	font-size: 24px;
+}
+
+input
+{
+	margin: 10px;
+}

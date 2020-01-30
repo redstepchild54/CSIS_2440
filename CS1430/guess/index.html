@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Guessing Game</title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body onload="resetGame();">
+		<h3 id="message">Guessing Game</h3>
+		<img id="game-image" src="img/start.png" alt="Game Image">
+		<form id="submission-form" action="javascript:void(0);" autocomplete="off">
+			<input id="user-guess" type="text" placeholder="Enter a number 1-99">
+			<input id="guess-button" class="show" type="submit" onclick="runGame();" value="Submit Your Guess">
+			<input id="play-again-button" class="hide" type="submit" onclick="resetGame();" value="Play Again?">
+		</form>
+		<p>Turns Taken: <span id="turns-taken"></span></p>
+		<div id="turn-display">
+			<p>Turns Remaining: <span id="turns-remaining"></span></p>
+			<p>Previous Answers: <span id="entered-values"></span></p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Tic-Tac-Toe</title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body onload="setUpGame();">
+		<form id="player-form" class="show" action="javascript:void(0);" autocomplete="off" onsubmit="startGame();">
+			<input id="player-name-1" type="text" required placeholder="Player 1">
+			<input id="player-name-2" type="text" required placeholder="Player 2">
+			<input type="submit" value="Start Game">
+		</form>
+		<div class="hide" id="game-display">
+			<h1 id="game-message">Turn</h1>
+			<h2 id="game-score">Score</h2>
+			<div class="hide" id="button-container">
+				<button class="show" id="new-game-button" onclick="newGame(false);">New Game</button>
+				<button class="show" id="play-again-button" onclick="newGame(true);">Rematch</button>
+			</div>
+			<div class="show" id="game-board">
+			</div>
+		</div>
+	</body>
+</html>
